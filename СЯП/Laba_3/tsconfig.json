@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {     	// параметры компиляции
+    "target": "es2015", // или "es6", "es2016", "es2017" и т.д.
+    "lib": ["es2015", "dom"] ,// Добавьте "es2015" или более позднюю версию
+    "removeComments": true,
+    "outDir": "js",
+    "sourceMap": true,
+    "outFile": "laba_3.js"
+  },
+  "files":[		// набор включаемых в проект файлов
+    "laba_3.ts",
+  ],
+  "exclude":[	// исключает при компиляции определенные файлы
+    "wwwroot",
+    "node_modules"
+  ],
+  "compileOnSave": true	// генерировать все файлы js при каждом сохранении файлов TypeScript
+}

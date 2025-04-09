@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {     	// параметры компиляции
+      "target": "es5",
+      "removeComments": true,
+      "outDir": "js",
+      "sourceMap": true,
+      "outFile": "laba_1.js"
+  },
+  "files":[		// набор включаемых в проект файлов
+      "laba_1.ts",
+  ],
+  "exclude":[	// исключает при компиляции определенные файлы
+      "wwwroot",
+      "node_modules"
+  ],
+  "compileOnSave": true	// генерировать все файлы js при каждом сохранении файлов TypeScript
+}
